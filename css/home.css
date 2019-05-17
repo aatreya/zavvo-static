@@ -1,0 +1,347 @@
+div.hero {
+	width: 100%;
+	margin: 0;
+	height: 96vh;
+	max-height: 900px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-image: url("../assets/home_hero_bg.svg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.container {
+	width: 100%;
+	max-width: 1440px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+div.hero_text {
+	width: 60%;
+	padding-right: 60px;
+}
+
+div.hero_img {
+	width: 40%;
+}
+
+div.hero_img img {
+	width: 100%;
+}
+
+div.text_link {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+div.backed_by {
+	font-size: 0.9rem;
+	color: #979797;
+}
+
+div.backed_by img {
+	width: 90px;
+	opacity: 0.3;
+	margin-left: 4px;
+	vertical-align: bottom;
+}
+
+section.features {
+	max-width: 700px;
+	margin-top: 160px;
+	margin-bottom: 120px;
+}
+
+div.feature_grid {
+	width: 100%;
+	margin: 0;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+div.feature_cell {
+	width: 50%;
+	margin: 0;
+	padding: 30px 0px;
+}
+
+div.left_padding {
+	padding-left: 40px;
+}
+
+div.right_padding {
+	padding-right: 40px;
+}
+
+i.material-icons {
+	margin-bottom: 10px;
+	color: #FD6F53;
+}
+
+section.testimonials {
+	background-color: rgba(1,169,237,0.1);
+	padding: 100px 60px;
+}
+
+div.testimonial_grid {
+	height: 260px;
+	max-width: 1440px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+div.testimonial_cell {
+	width: 23%;
+	margin: 10px;
+	padding: 16px;
+	border: 1px solid #dbdbdb;
+	border-radius: 8px;
+}
+
+div.top {
+	align-self: flex-start;
+}
+
+div.bottom {
+	align-self: flex-end;
+}
+
+section.two_columns {
+	width: 100%;
+	max-width: 1440px;
+	height: 50vh;
+	max-height: 500px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+div.column {
+	width: 50%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.bank_logos {
+    width: 400px;
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+div.bank_logos img {
+    width: 25%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+div.bank_logos a.button {
+	width: 120px;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+section.security {
+	width: 100%;
+	height: 80vh;
+	max-height: 700px;
+	background-color: #262525;
+	color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section.security div {
+	max-width: 600px;
+}
+
+section.security img {
+	margin-bottom: 40px;
+}
+
+section.security p {
+	margin-top: 40px;
+	text-align: justify;
+}
+
+section.cta img.bg_top {
+	max-width: 1440px;
+	height: auto;
+	max-height: 100%;
+}
+
+section.cta img.bg_bottom {
+	max-width: 1440px;
+	height: auto;
+	max-height: 100%;
+}
+
+@media all and (max-width: 1000px) {
+	div.hero {
+		height: auto;
+		max-height: none;
+	}
+
+	div.container {
+		flex-wrap: wrap;
+	}
+
+	div.hero_text {
+		width: 100%;
+		text-align: center;
+		padding: 80px;
+		padding-bottom: 0;
+	}
+
+	div.hero_img {
+		width: 100%;
+		padding: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.hero_img img {
+		max-width: 500px;
+	}
+
+	div.testimonial_grid {
+		height: auto;
+		flex-wrap: wrap;
+	}
+
+	div.testimonial_cell {
+		width: 46%;
+		height: 180px;
+	}
+
+	section.two_columns {
+		height: auto;
+		max-height: none;
+		flex-wrap: wrap;
+	}
+
+	div.column {
+		width: 100%;
+		padding: 80px; 
+	}
+
+	section.security {
+		height: auto;
+		max-height: none;
+		padding: 120px 80px;
+	}
+
+	div.vertical_rule {
+		display: none;
+	}
+
+	div.horizontal_rule {
+		display: block;
+	}
+}
+
+@media all and (max-width: 700px) {
+	div.hero {
+		padding: 0 60px;
+	}
+
+	div.hero_text {
+		padding: 60px 20px;
+	}
+
+	div.hero_img {
+		padding: 60px 40px;
+	}
+
+	section.features {
+		margin: 120px 60px;
+	}
+
+	div.feature_cell {
+		width: 100%;
+	}
+
+	div.left_padding {
+		padding-left: 0;
+	}
+
+	div.right_padding {
+		padding-right: 0;
+	}
+
+	div.testimonial_cell {
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+	}
+}
+
+@media all and (max-width: 500px) {
+	div.hero {
+		padding: 0;
+	}
+
+	div.hero_img {
+		padding: 60px 20px;
+	}
+
+	section.features {
+		margin: 80px 20px;
+	}
+
+	div.feature_cell {
+		padding: 20px 0;
+	}
+
+	section.testimonials {
+		padding: 60px 20px;
+	}
+
+	section.two_columns {
+		padding: 40px 20px;
+	}
+
+	div.column {
+		padding: 40px 0px;
+	}
+
+	div.column div {
+		width: 100%;
+		text-align: left;
+	}
+
+	div.bank_logos {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	div.bank_logos a.button {
+		width: 30%;
+		margin: 0;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	section.security {
+		padding: 80px 20px;
+	}
+}
