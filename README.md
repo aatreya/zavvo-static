@@ -1,1 +1,0 @@
-# zavvo-static
